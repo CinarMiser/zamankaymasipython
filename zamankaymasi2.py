@@ -3,7 +3,6 @@ import csv
 
 veri_sayisi = 5000
 
-# Mach değerleri (0 - 10 arası mesela)
 mach_degerleri = [i * 10 / veri_sayisi for i in range(veri_sayisi)]
 
 ses_hizi = 343          # m/s
